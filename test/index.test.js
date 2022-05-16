@@ -1,6 +1,6 @@
-const sut = require("../src/index.js");
+import sut from "../src/index.js";
 
-TextDecoderStream("should add 2 numbers", () => {
+test("should add 2 numbers", () => {
   //arrange
   const c = 2;
   const d = 3;
