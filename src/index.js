@@ -10,4 +10,18 @@ const sum = (a, b) => {
   return a + b;
 };
 
-export default sum;
+//write a function that raise a number to the third power
+
+export const cube = (num) => {
+  if (typeof num !== "number") {
+    return "Bad input";
+  }
+  return num ** 3;
+};
+
+const mathService = {
+  sum: sum,
+  cube: cube,
+};
+
+export default mathService;
